@@ -5,10 +5,14 @@
 }
 
 header {
-    height: 72px;
+    height: 90px;
     background: linear-gradient(to bottom right, #1e1f22, #12141b, #0a0c10);
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 main {
-    margin: auto;
+    margin-top: 90px;
 }
