@@ -55,21 +55,47 @@ main {
 }
 
 .main-nav p {
-    margin-top: 6px;
-    line-height: 24px;
+    margin-top: 5px;
+    line-height: 26px;
     font-size: 22px;
     color: #e0e0e0;
 }
 
-.link-btn {
-    height: 32px;
+.header-btn, .link-btn {
     display: flex;
     border-radius: 15px;
-    padding: 5px 15px;
-    transition: .3s;
     cursor: pointer;
+}
+
+.header-btn {
+    padding: 15px 30px;
+    background: #92121a;
+    transition: .1s;
+}
+
+    .header-btn:hover {
+        background: #ba101a;
+    }
+
+.link-btn {
+    height: 32px;
+    padding: 10px 20px;
+    transition: .3s;
 }
 
     .link-btn:hover {
         background: #404044;
     }
+
+.download-link {
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.language-link, .profile-link {
+    margin-right: 10px;
+}
+
+.profile-link {
+    margin-left: 10px;
+}
