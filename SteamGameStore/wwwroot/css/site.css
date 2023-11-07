@@ -1,19 +1,30 @@
+@font-face {
+    font-family: Oxanium;
+    src: url(../fonts/Oxanium-VariableFont_wght.ttf)
+}
+
 * {
     margin: 0; 
     padding: 0;
+    user-select: none;
 }
 
 body, html {
     height: 100vh;
 }
 
+img {
+    pointer-events: none;
+}
 
 body {
     background: linear-gradient(to bottom right, #343740, #212837, #11171e);
     background-attachment: fixed;
 }
 
-.logo img{
-    margin: 10px 20px;
-    height: 60px;
+p {
+    font-family: Oxanium;
+    font-weight: bold;
+    color: #fff;
 }
+
