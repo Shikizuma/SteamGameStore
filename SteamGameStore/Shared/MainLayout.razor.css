@@ -6,12 +6,13 @@
 
 header {
     height: 55px;
-    background: linear-gradient(to bottom right, #1e1f22, #12141b, #0a0c10);
+    background: linear-gradient(to bottom right, #1f2026, #151922, #070a0d);
     position: fixed;
     width: 100%;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     padding: 20px 24px;
+    z-index: 100;
 }
 
 

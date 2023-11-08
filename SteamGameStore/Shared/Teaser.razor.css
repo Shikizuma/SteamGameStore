@@ -1,4 +1,57 @@
-﻿.teaser img {
-    width: 1920px;
-    height: 400px;
+﻿.teaser {
+    background: #000000 url('/img/teaser.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
 }
+
+    .teaser::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 21.16%, rgba(0, 0, 0, 0.63) 48.94%, rgba(0, 0, 0, 0.85) 99.61%);
+        mix-blend-mode: multiply;
+    }
+
+.teaser__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 300px;
+    padding: 50px 20px 20px;
+}
+
+
+.teaser__content img {
+    display: block;
+    margin: auto auto 0;
+}
+
+.teaser__button {
+    margin-top: 35px;
+    margin-bottom: auto;
+}
+
+    .teaser__button button {
+        display: block;
+        min-width: 170px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        border: 0;
+        border-radius: 100px;
+        background: rgba(193, 0, 21, 0.86);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        font-family: Oxanium;
+        font-weight: 500;
+        font-size: 20px;
+        color: #E0E0E0;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+        .teaser__button button:hover {
+            background: #901;
+        }
