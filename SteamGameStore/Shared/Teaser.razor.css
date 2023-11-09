@@ -12,9 +12,10 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 21.16%, rgba(0, 0, 0, 0.63) 48.94%, rgba(0, 0, 0, 0.85) 99.61%);
+        background: linear-gradient(180deg, rgba(17, 18, 20, 0.00) 10%, rgba(5, 6, 8, 0.63) 50%, rgba(3, 4, 7, 0.9) 100%);
         mix-blend-mode: multiply;
     }
+
 
 .teaser__content {
     display: flex;
